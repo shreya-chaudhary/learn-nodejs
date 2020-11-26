@@ -1,0 +1,24 @@
+#build app
+docker build -t booking:0.0.1 -f Dockerfile .
+docker run --rm -p 8000:8000 booking:0.0.1
+
+#Swagger - OpenAPI specifications
+https://itnext.io/wiring-up-an-api-server-with-express-and-swagger-9bffe0a0d6bd
+#how-to-add-swagger-ui-to-existing-node-js-and-express-js
+http://localhost:8000/api/api-docs
+https://medium.com/@kirtikau/how-to-add-swagger-ui-to-existing-node-js-and-express-js-project-2c8bad9364ce
+
+#Mocha Chai
+https://mherman.org/blog/testing-node-js-with-mocha-and-chai/
+https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71
+
+#Loggers
+https://dev.to/gkoniaris/nodejs-logging-from-beginner-to-expert-30a6
+
+#eslint
+enforcing code style guide throughout your project
+run commands in node_modules using npx: npx eslint --init
+run eslint : npm run lint
+
+Git:
+git init

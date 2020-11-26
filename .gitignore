@@ -1,0 +1,8 @@
+#lock json file
+package-lock.json
+
+#commands used
+commands.txt
+
+#node modules
+/node_modules/
